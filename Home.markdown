@@ -1,1 +1,1 @@
-[[Compile]]
+[[Compile Android for Nokia N900]](compile_android_nokia_n900)
