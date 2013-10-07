@@ -7,7 +7,7 @@ export KERNELDIR=...
 # making kernel modules
 
 cd hardware/ti/sgx
-make -C eurasiacon/build/linux2/omap4430_android KERNELDIR=$KERNELDIR SGXCORE=530 SGXCOREREV=125 CROSS_COMPILE=arm-eabi- OMAPES=5.x ARCH=arm
+make -C eurasiacon/build/linux2/omap4430_android KERNELDIR=$KERNELDIR SGXCORE=530 SGXCOREREV=125 CROSS_COMPILE=arm-eabi- OMAPES=5.x ARCH=arm PLATFORM_VERSION=4.1
 
 # installing userland binaries (graphics HAL)
 
